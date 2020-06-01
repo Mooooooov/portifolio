@@ -77,7 +77,7 @@ a:visited{
 }
 
 #segundo{
-    width: auto;
+    width: 100%;
     height: 1080px;
     background-color: white;
 }
@@ -128,7 +128,7 @@ a:visited{
 /* fim do principal */
 
 .segundo{
-    width: auto;
+    width: 100%;
     height: 1080px;
     background-color: white;
 }
@@ -209,7 +209,7 @@ a:visited{
 }
 
 #terceiro{
-    width: auto;
+    width: 100%;
     height: 1080px;
     background-color: black;
 }
@@ -292,7 +292,7 @@ a:visited{
 
 
 #quarto{
-    width: auto;
+    width: 100%;
     height: 600px;
     background-color: white;
 }
@@ -333,7 +333,7 @@ a:visited{
 }
 
 .quinto{
-    width: auto;
+    width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
