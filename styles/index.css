@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: black;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.title-home, .navbar, .social-media, .home-perfil, .home-profissao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-home > h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 41px;
+    color: white;
+    letter-spacing: 2.05px;
+    padding-bottom: 25px;
+}
+
+
+
+.navbar > a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    margin: 0 12px;
+    padding-bottom: 30px;
+}
+
+.social-media{
+    padding-top: 20px;
+}
+
+.social-media > ul > li{
+    display: inline;
+    margin: 0 12px;
+
+}
+
+
+.home-perfil{
+    padding-bottom: 30px;
+
+}
+.home-profissao{
+    font-family: 'Roboto', monospace;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#segundo{
+    width: 100%;
+    height: 1080px;
+    background-color: white;
+}
+
+.info{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.box1{
+    width: 801px;
+    height: 459px;
+    background-color: #1D1D1D;
+    border-radius: 15px;
+    margin: 0 20px;
+    color: white;
+    float: right;
+    margin-bottom: 100px;
+    
+    
+
+}
+
+.box1 > h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    margin: 10px 30px;
+}
+
+.box1 > p {
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    font-size: 22px;
+    margin: 10px 30px;
+
+}
+
+
+.box1 > ul > li {
+    margin: 10px 50px;
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+}
+
+/* fim do principal */
+
+.segundo{
+    width: 100%;
+    height: 1080px;
+    background-color: white;
+}
+
+.segundo-texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.segundo-texto > h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.segundo-texto > p{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 100px;
+}
+
+.card-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    width: 362px;
+    height: 662px;
+    margin: 0 95px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.card1-img, .card2-img{
+    padding-top: 65px;
+}
+
+
+.card2{
+    width: 362px;
+    height: 662px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.card1 > h1 {
+    font-size: 24px;
+    font-family: Roboto Mono;
+    line-height: 32px;
+    margin: 60px 30px;
+
+
+}
+
+.card-texto{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+    margin: 0 30px;
+}
+
+#terceiro{
+    width: 100%;
+    height: 1080px;
+    background-color: black;
+}
+
+#terceiro > h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-family: Roboto;
+    letter-spacing: 0.21em;
+    font-size: 48px;
+    padding-top: 80px;
+}
+
+.terceiro-area{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+}
+
+.terceiro-area > h1{
+    color: white;
+    letter-spacing: 0.21em;
+    font-size: 48px;
+}
+
+.habilidades{
+    display: flex;
+    min-height: 75vh;
+    align-items: center;
+}
+
+.hab1{
+    width: 340px;
+    height: 441px;
+    padding-top: 350px;
+}
+
+.hab2{
+    width: 500px;
+    height: 374px;
+    margin: 0 104px;
+}
+
+.hab2-img > img{
+    margin: 0 11px;
+}
+
+.hab3{
+    width: 340px;
+    height: 441px;
+    padding-top: 350px;
+}
+
+.hab1-txt, .hab3-txt{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 326px;
+    height: 102px;
+    padding-top: 20px;
+}
+
+.hab2-txt > p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.hab1-img, .hab2-img, .hab3-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#quarto{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.quarto-area{
+    display: flex;
+    justify-content: center;
+}
+
+.projetos{
+    display: flex;
+    align-items: center;
+}
+
+.projeto1 > a, .projeto2 > a, .projeto3 > a{
+    padding: 50px 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    display: block;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+#quarto > h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 48px;
+    font-family: Roboto;
+    letter-spacing: 0.21em;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.projetos *{
+    margin: 0 40px;
+}
+
+.quinto{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quinto-txt > h1{
+    color: white;
+    font-size: 42px;
+    font-family: Roboto;
+    padding-top: 100px;
+}
+
+.quinto-txt > p{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+}
+
+/*animações*/
+
+[data-anime] {
+    opacity: 0;
+    transition: .4s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+}
+
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.home > .title-home > h1::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
